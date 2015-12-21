@@ -480,7 +480,10 @@ function initialize_map() {
                     title: SiteName,
                     zIndex: -99999
             });
-        
+        drawPoly10000();
+        drawPoly20000();
+        drawPoly30000();
+        drawPoly40000();
                 if (SiteCircles) {
                         for (var i=0;i<SiteCirclesDistances.length;i++) {
                                 drawCircle(marker, SiteCirclesDistances[i]); // in meters
